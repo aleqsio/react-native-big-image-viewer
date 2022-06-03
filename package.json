@@ -1,5 +1,5 @@
 {
-  "name": "react-native-big-image-viewer",
+  "name": "@aleqsio/react-native-big-image-viewer",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
