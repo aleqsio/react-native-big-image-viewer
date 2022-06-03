@@ -1,7 +1,7 @@
 # react-native-big-image-viewer
 
-test
-
+RN bindings for https://github.com/Piasy/BigImageViewer
+Android only!
 ## Installation
 
 ```sh
@@ -11,11 +11,14 @@ npm install react-native-big-image-viewer
 ## Usage
 
 ```js
-import { BigImageViewerView } from "react-native-big-image-viewer";
+import { RNBigImageViewer } from "react-native-big-image-viewer";
 
 // ...
 
-<BigImageViewerView color="tomato" />
+<RNBigImageViewer
+    url={`https://photojournal.jpl.nasa.gov/jpeg/PIA0${counter}.jpg`}
+    style={{ backgroundColor: 'black' }}
+/>
 ```
 
 ## Contributing
